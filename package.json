@@ -1,0 +1,17 @@
+{
+  "name": "fake-smtp-server",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "mailparser": "*",
+    "smtp-protocol": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "should": "*",
+    "nodemailer": "*"
+  }
+}
