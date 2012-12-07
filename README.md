@@ -1,4 +1,9 @@
-fake-smtp
-=========
+Stage Mail
+==========
 
-Fake smtp server
+The main goal for stage mail is to provide a node based alternative to programs like papercut.
+
+In many stage environment the mail functionality is turn off, the to address is modified to a temporary address or in
+other ways making sure that the email is not beeing sent.
+
+Stage Mail will save all sent emails where it's possible to verify them manually via a web ui.
